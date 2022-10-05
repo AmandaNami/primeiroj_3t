@@ -34,3 +34,10 @@ function quadrado (){
    }      
 
  }
+
+ function total(){
+         let val = document.getElementById("valor").nodeValue;
+         let ju = document.getElementById("juros").nodeValue;
+         let resultado = (val * (1+ (ju/100)));
+         document.write("o resultado é" + resultado);
+ }
