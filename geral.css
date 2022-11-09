@@ -1,18 +1,28 @@
 .calculadora {
-    background: rgb(170, 247, 118);
+    background: rgb(114, 248, 87);
     width: 200px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 5px 5px rgb(163, 241, 193);
+    box-shadow: 5px 5px rgb(40, 202, 61);
     text-align: center;
     
 }
+.calcF{
+    display: none;
+}
+#calcFin{
+    display: none;
+}
+#calcFin:checked + .calculadora .calcF{
+    display: block;
+}
+
 .calculadora input {
     border-radius: 5px;
     border: none;
     padding: 5px;
     background: rgb(225, 250, 0);
-    color: cornsilk;
+    color: rgb(10, 10, 10);
 }
 .calculadora input:focus {
     background: rgb(240, 124, 124);
