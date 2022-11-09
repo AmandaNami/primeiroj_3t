@@ -69,7 +69,7 @@ function total(){
       texto += m + ": " + moeda(r) + "<br>"
       //document.write("Mês " + m + " valor: " + moeda(r) + "<br>");
    }
-   document.getElementById("listaMes").innerHTML = texto
-   document.getElementById("total").innerHTML = "Total: "+moeda(r);
+   document.getElementById("listaMes").innerHTML = texto;
+   document.getElementById("total").innerHTML = "Total: "+ moeda(r);
    //document.write("O tatal é " + moeda(r));
 }
